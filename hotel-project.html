@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web-Based Hotel Reservation System | John Kurt S. Santander</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="hotel-theme">
+
+  <!-- Navigation -->
+  <nav class="navbar hotel-nav">
+    <div class="container nav-container">
+      <a href="index.html" class="logo"><i class="fas fa-key" style="color: #C9A96E; margin-right: 8px;"></i><span class="hotel-gold">JK</span> Santander</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+        <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+        <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Parallax Hero - Hotel Lobby -->
+  <section class="hotel-hero parallax" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&q=80');">
+    <div class="parallax-overlay"></div>
+    <div class="container hotel-hero-content">
+      <a href="index.html#projects" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+      <div class="room-badge">
+        <span class="room-label">ROOM</span>
+        <span class="room-number">2024</span>
+      </div>
+      <h1>Web-Based Hotel Reservation System</h1>
+      <p class="hotel-role"><i class="fas fa-concierge-bell"></i> Full-Stack Developer &amp; Technical Documentarian</p>
+      <div class="hero-buttons" style="margin-top: 1.5rem;">
+        <a href="https://github.com/Kurtyeet/Hotel-Reservation-Management-System" target="_blank" rel="noopener" class="btn btn-gold"><i class="fab fa-github"></i> View Source Code</a>
+        <a href="https://docs.google.com/document/d/13lJ1Rf5CxJHd9a6_gZCXbnWHrvoiM9DywrlONDlY8Xo/edit?usp=drive_link" target="_blank" rel="noopener" class="btn btn-outline-gold"><i class="fas fa-file-pdf"></i> View Documentation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Overview - Registration Card -->
+  <section class="section hotel-section">
+    <div class="container">
+      <div class="section-header">
+        <i class="fas fa-clipboard-list section-icon"></i>
+        <h2 class="section-title">Registration Card</h2>
+      </div>
+      <div class="registration-card">
+        <div class="registration-header">
+          <div class="hotel-logo">
+            <i class="fas fa-hotel"></i>
+            <span>HOTEL RESERVATION SYSTEM</span>
+          </div>
+          <div class="registration-divider"></div>
+        </div>
+        <div class="registration-body">
+          <p>Developed a responsive local-host web application to streamline room bookings and guest data management. The system centralizes room inventory, guest records, and reservations into one platform where availability is calculated in real-time based on date overlaps. Staff can book, check-in, check-out, and process early cancellations from a single interface, while guests can self-service browse and book rooms.</p>
+        </div>
+        <div class="registration-footer">
+          <div class="tech-amenities">
+            <h4><i class="fas fa-star"></i> System Amenities</h4>
+            <div class="amenity-list">
+              <span><i class="fab fa-php"></i> PHP</span>
+              <span><i class="fas fa-database"></i> MySQL</span>
+              <span><i class="fab fa-html5"></i> HTML/CSS</span>
+              <span><i class="fab fa-js"></i> JavaScript</span>
+              <span><i class="fas fa-server"></i> XAMPP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshot Gallery - Hotel Gallery -->
+  <section class="section parallax" style="background-image: url('https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1920&q=80');" id="gallery-section">
+    <div class="parallax-overlay dark"></div>
+    <div class="container">
+      <div class="section-header light">
+        <i class="fas fa-images section-icon"></i>
+        <h2 class="section-title">Room Gallery</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item frame">
+          <img src="images/admin dashboard - hotel.jpeg" alt="Admin Dashboard" />
+          <div class="gallery-caption"><i class="fas fa-tachometer-alt"></i> Admin Dashboard</div>
+        </div>
+        <div class="gallery-item frame">
+          <img src="images/guest dashboard - hotel.jpeg" alt="Guest Dashboard" />
+          <div class="gallery-caption"><i class="fas fa-user"></i> Guest Dashboard</div>
+        </div>
+        <div class="gallery-item frame">
+          <img src="images/reservation - hotel.jpeg" alt="Reservation System" />
+          <div class="gallery-caption"><i class="fas fa-calendar-check"></i> Reservation Interface</div>
+        </div>
+        <div class="gallery-item frame">
+          <img src="images/rooms - hotel.jpeg" alt="Room Management" />
+          <div class="gallery-caption"><i class="fas fa-bed"></i> Room Management</div>
+        </div>
+        <div class="gallery-item frame">
+          <img src="images/guest account - hotel.jpeg" alt="Guest Account" />
+          <div class="gallery-caption"><i class="fas fa-id-card"></i> Guest Account</div>
+        </div>
+        <div class="gallery-item frame">
+          <img src="images/staff management - hotel.jpeg" alt="Staff Management" />
+          <div class="gallery-caption"><i class="fas fa-users"></i> Staff Management</div>
+        </div>
+        <div class="gallery-item frame">
+          <img src="images/about us - hotel.jpeg" alt="About Us Page" />
+          <div class="gallery-caption"><i class="fas fa-info-circle"></i> About Us Page</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Q&A Case Study - Concierge FAQ -->
+  <section class="section parallax" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1920&q=80');">
+    <div class="parallax-overlay burgundy"></div>
+    <div class="container">
+      <div class="section-header light">
+        <i class="fas fa-concierge-bell section-icon"></i>
+        <h2 class="section-title">Concierge Notes</h2>
+      </div>
+
+      <div class="concierge-card">
+        <div class="concierge-header">
+          <i class="fas fa-question-circle"></i>
+          <h3>Q1: What core operational problem does this system solve?</h3>
+        </div>
+        <div class="concierge-body">
+          <p>The system solves manual hotel reservation management — eliminating double-bookings, paper-based tracking, and the inability to know which rooms are available on specific dates. It centralizes room inventory, guest records, and reservations into one system where availability is calculated in real-time based on date overlaps, not static room status. Staff can book, check-in, check-out, and process early cancellations from a single interface, while guests can self-service browse and book rooms.</p>
+        </div>
+      </div>
+
+      <div class="concierge-card">
+        <div class="concierge-header">
+          <i class="fas fa-question-circle"></i>
+          <h3>Q2: Why was a relational MySQL database structure critical for this architecture?</h3>
+        </div>
+        <div class="concierge-body">
+          <p>Because reservations inherently involve relationships between entities — a reservation links a guest to a room through a staff member over a date range. The relational structure enforces:</p>
+          <ul>
+            <li><strong>Referential integrity</strong> — reservations.guest_id references guests, reservations.room_id references rooms, preventing orphaned records</li>
+            <li><strong>Complex availability queries</strong> — Date overlap detection (check_out_date > :in AND check_in_date < :out) across the reservations table is efficient with SQL joins</li>
+            <li><strong>Multi-table transactions</strong> — Booking requires inserting into reservations and checking rooms atomically (BEGIN/COMMIT/ROLLBACK) to prevent race conditions</li>
+            <li><strong>Normalized data</strong> — Room types, guest info, and staff accounts are stored once, not duplicated</li>
+          </ul>
+          <p>A flat or NoSQL structure would require manual consistency checks and would make availability queries significantly more complex.</p>
+        </div>
+      </div>
+
+      <div class="concierge-card">
+        <div class="concierge-header">
+          <i class="fas fa-question-circle"></i>
+          <h3>Q3: How does the technical documentation add value to this software asset?</h3>
+        </div>
+        <div class="concierge-body">
+          <p>The README serves as onboarding and maintenance documentation:</p>
+          <ul>
+            <li><strong>Reduces setup friction</strong> — New developers can deploy the system in minutes with clear installation steps and database setup instructions</li>
+            <li><strong>Preserves institutional knowledge</strong> — Explains design decisions (date-based availability, auto check-in/out, early checkout logic) that aren't obvious from reading code alone</li>
+            <li><strong>Enables handoff</strong> — The default accounts table, project structure, and feature explanations let another developer take over without needing the original author</li>
+            <li><strong>Serves as a reference</strong> — Password validation rules, API endpoints, and role permissions are documented for future modifications</li>
+          </ul>
+          <p>Without it, the system becomes a "black box" that only the original developer can maintain.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Key Features - Hotel Amenities -->
+  <section class="section hotel-section">
+    <div class="container">
+      <div class="section-header">
+        <i class="fas fa-hot-tub section-icon"></i>
+        <h2 class="section-title">Hotel Amenities</h2>
+      </div>
+      <div class="amenities-grid">
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+          <h4>Real-Time Availability</h4>
+          <p>Date overlap detection ensures accurate room availability across all bookings</p>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h4>Role-Based Access</h4>
+          <p>Separate interfaces for admin, staff, and guest users with appropriate permissions</p>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <i class="fas fa-bed"></i>
+          </div>
+          <h4>Room Management</h4>
+          <p>Full CRUD operations for rooms, room types, and pricing</p>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h4>Booking Workflow</h4>
+          <p>Complete reservation lifecycle: book, check-in, check-out, and early cancellation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Check Out Footer -->
+  <section class="checkout-section parallax" style="background-image: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1920&q=80');">
+    <div class="parallax-overlay dark"></div>
+    <div class="container checkout-content">
+      <i class="fas fa-key checkout-key"></i>
+      <h2>Thank You for Visiting</h2>
+      <p>We hope you enjoyed reviewing this project.</p>
+      <a href="index.html#projects" class="btn btn-gold"><i class="fas fa-arrow-left"></i> Return to Lobby</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer hotel-footer">
+    <div class="container">
+      <p>&copy; 2026 John Kurt S. Santander. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <button class="lightbox-prev" id="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+    <button class="lightbox-next" id="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightbox-img" />
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
